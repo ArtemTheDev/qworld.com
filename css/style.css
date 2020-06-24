@@ -1,0 +1,175 @@
+body {
+	background-color: #E2E2E2;
+	src: url('font/UniSansHeavyCAPS.ttf');
+	font-family: UniSansHeavyCAPS, sans-serif;
+	margin:0px;
+}
+
+.red {
+    background: red;
+    padding: 50px;
+    position: relative;
+    width:40%;
+}
+
+.red::after {
+    content: ''; 
+    position: absolute;
+    border: 50px solid transparent; 
+    border-left: 50px solid red; 
+    border-top: 50px solid red;
+    right: -99px; top:0px;
+}
+
+.white {
+	background: white;
+    position: absolute;
+    width:100%;
+    padding-bottom: 15px;
+    text-align: -webkit-right;
+}
+
+.name {
+	position: absolute;
+	color:white;
+	font-weight: 800;
+	font-size: 4.5em;
+	top:-50px;
+}
+
+.link {
+	text-decoration: none;
+	text-align: right;
+	color:black;
+	font-weight: 800;
+	font-size: 2.5em;
+	margin-right: 30px;
+}
+
+.bg {
+	position:absolute;
+	top:0px;
+	background-color: #2c3531;
+	z-index: -1;
+	left:0px;
+	width:100%;
+	padding-bottom:480px;
+}
+
+.descriptionMain {
+	position:absolute;
+	width:100%;
+	background-color: #191919;
+	margin-top: 300px;
+	padding-top: 180px;
+	left:0px;
+}
+
+.text { position:absolute; text-align:center; width:100%; font-size:2.5em; margin-top: -170px; }
+
+.textWhatIs {
+	font-weight: 800;
+	color:white;
+}
+
+.textQ {
+	font-weight: 800;
+	color:red; 
+}
+
+.textWhyQ {
+	font-size:0.8em;
+	font-weight: 800;
+	color:#858383; 
+}
+
+
+.empty {
+	padding-top:460px;
+}
+
+img {
+	width:20vw;
+}
+
+.imgRIGHT {
+	margin-right: -4.5em;
+	box-shadow: 5px 5px 5px #808080;
+	margin-top:-10px;
+}
+
+.imgLEFT {
+	margin-left: -5em;
+	box-shadow: 5px 5px 5px #808080;
+	margin-top:-1em;
+}
+
+.desc1LEFT {
+	font-weight:800;
+	font-size:3vw;
+	color:red;
+	margin-bottom: 0px;
+}
+
+.desc2LEFT {
+	font-weight:800;
+	font-size:1.3vw;
+	color:#858383;
+}
+
+.blocktype1 {
+	padding-right:100px;
+	width:50%;
+	margin-bottom: 10em;
+	text-align: left;
+	text-align: -webkit-left;
+}
+
+.blocktype2 {
+	width:50%;
+	margin-left: 7em;
+	margin-bottom: 10em;
+	text-align: right;
+	text-align: -webkit-right;
+}
+
+.buttonDec {
+	width: 15em;
+	background-color: red;
+	text-align: center;
+	margin-top: 20px;
+	border: solid white 3px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+
+.button {
+	text-decoration: none;
+	font-weight:800;
+	font-size:2.3em;
+	color: white;
+	transition: 0.3s;
+}
+
+.buttonDec:hover { background-color: white; transition: 0.3s; border: solid red 3px; }
+.buttonDec:hover .button { color:red; transition: 0.3s; }
+
+footer {
+	width:100%;
+	background-color: #191919;
+	height: 5vw;
+	margin-top: 30px;
+}
+
+span {
+	font-weight: 800;
+	font-size: 5vw;
+	align-self: center;
+}
+
+.textJoin { color: #191919; }
+.textQ { color:red; }
+
+[src = 'img/scr3.png'] {
+	margin-right: -5em;
+}

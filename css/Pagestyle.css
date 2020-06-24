@@ -1,0 +1,79 @@
+body {
+	background-color: #E2E2E2;
+	src: url('font/UniSansHeavyCAPS.ttf');
+	font-family: UniSansHeavyCAPS, sans-serif;
+	margin:0px;
+}
+
+header {
+	background-color: #191919;
+	width:100%;
+	height:70px;
+}
+
+.textBack {
+	position: absolute;
+	top:10px;
+	color:white;
+	font-weight: 800;
+	font-size: 2em;
+	margin-top: -19px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.triBack {
+	position:absolute;
+	border:15px solid transparent;
+	border-right: 25px solid white;
+	left:-45px;
+	transition: 0.3s;
+}
+
+.zone {
+	position:absolute;
+	margin-left:50px;
+	margin-top:20px;
+	background-color: orange;
+}
+
+.zone:hover .textBack{ color:red; transition: 0.3s; } 
+.zone:hover .triBack { border-right: 25px solid red; transition: 0.3s; }
+
+
+/** CONTENT **/
+
+.BlockText {
+	font-weight: 800; 
+	font-size: 2.5vw; 
+	color: #858383;
+	text-decoration: none;
+}
+
+.FinBlockText {
+	font-weight: 800; 
+	font-size: 3.5vw; 
+	color: #191919;
+	text-decoration: none;
+}
+
+.BlockIMG {
+	width: 40vw;
+	margin-bottom: 8vw;
+	margin-top: 1vw;
+}
+
+.block { width:100%; height:100%;}
+
+
+
+
+
+
+
+footer {
+	width:100%;
+	background-color: #191919;
+	height: 5vw;
+	margin-top: 30px;
+}

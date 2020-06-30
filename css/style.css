@@ -34,7 +34,8 @@ body {
 	color:white;
 	font-weight: 800;
 	font-size: 4.5em;
-	top:-50px;
+	top:-5px;
+	text-decoration: none;
 }
 
 .link {
@@ -43,8 +44,11 @@ body {
 	color:black;
 	font-weight: 800;
 	font-size: 2.5em;
-	margin-right: 30px;
 }
+
+@media(max-width:1049px) {.link{ margin-right: 0px; }}
+@media(min-width:1050px) {.link{ margin-right: 30px; }}
+
 
 .bg {
 	position:absolute;
@@ -157,8 +161,8 @@ img {
 footer {
 	width:100%;
 	background-color: #191919;
-	height: 5vw;
-	margin-top: 30px;
+	position: fixed;
+    left: 0; bottom: 0;
 }
 
 span {
